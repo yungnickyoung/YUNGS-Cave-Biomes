@@ -56,6 +56,8 @@
   "item.yungscavebiomes.ice_cube_spawn_egg": "Ice Cube Spawn Egg",
   "item.yungscavebiomes.sand_snapper_spawn_egg": "Sand Snapper Spawn Egg",
   "item.yungscavebiomes.prickly_peach": "Prickly Peach",
+  "item.yungscavebiomes.hourglass_pottery_sherd": "Hourglass Pottery Sherd",
+  "item.yungscavebiomes.clock_pottery_sherd": "Clock Pottery Sherd",
 
   "effect.yungscavebiomes.frost": "Frost",
   "effect.yungscavebiomes.frost.description": "Slows movement speed and applies damage over time.",

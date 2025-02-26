@@ -1,4 +1,4 @@
-package com.yungnickyoung.minecraft.yungscavebiomes.mixin.lost_caves;
+package com.yungnickyoung.minecraft.yungscavebiomes.mixin.lost_caves.client;
 
 import com.google.common.collect.ImmutableList;
 import com.yungnickyoung.minecraft.yungscavebiomes.YungsCaveBiomesCommon;
@@ -23,10 +23,10 @@ public abstract class SpriteResourceLoaderMixin {
      */
     @Inject(method = "load", at = @At("RETURN"))
     private static void yungscavebiomes_addAncientArmorTrimTextures(ResourceManager resourceManager, ResourceLocation id, CallbackInfoReturnable<SpriteResourceLoader> cir) {
-        if (id.getPath().equals("armor_trims")) {
+        if (id.equals(new ResourceLocation("minecraft", "armor_trims"))) {
             SpriteResourceLoader resourceLoader = cir.getReturnValue();
             for (SpriteSource source : ((SpriteResourceLoaderAccessor) resourceLoader).getSources()) {
-                if (source instanceof PalettedPermutationsAccessor palettedPermutations && palettedPermutations.getPaletteKey().getPath().equals("trims/color_palettes/trim_palette")) {
+                if (source instanceof PalettedPermutationsAccessor palettedPermutations && palettedPermutations.getPaletteKey().equals(new ResourceLocation("minecraft", "trims/color_palettes/trim_palette"))) {
                     List<ResourceLocation> textures = new ArrayList<>(palettedPermutations.getTextures());
                     textures.add(YungsCaveBiomesCommon.id("trims/models/armor/ancient"));
                     textures.add(YungsCaveBiomesCommon.id("trims/models/armor/ancient_leggings"));

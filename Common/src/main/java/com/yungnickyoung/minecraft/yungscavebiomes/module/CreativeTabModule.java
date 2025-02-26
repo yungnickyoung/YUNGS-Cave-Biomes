@@ -45,6 +45,9 @@ public class CreativeTabModule {
 
                 output.accept(ItemModule.ANCIENT_ARMOR_TRIM_SMITHING_TEMPLATE.get());
 
+                output.accept(ItemModule.HOURGLASS_POTTERY_SHERD.get());
+                output.accept(ItemModule.CLOCK_POTTERY_SHERD.get());
+
                 output.accept(ItemModule.ICE_CUBE_SPAWN_EGG.get());
                 output.accept(ItemModule.SAND_SNAPPER_SPAWN_EGG.get());
             })

@@ -31,6 +31,7 @@
     "lost_caves.DeadBushBlockMixin",
     "lost_caves.LivingEntityMixin",
     "lost_caves.ServerLevelMixin",
+    "lost_caves.TrimPatternsMixin",
     "marble_caves.AquiferMixin",
     "marble_caves.NoiseChunkMixin"
   ],
@@ -38,10 +39,12 @@
     "accessor.PalettedPermutationsAccessor",
     "accessor.SpriteResourceLoaderAccessor",
     "debug.DebugRendererMixin",
-    "lost_caves.SpriteResourceLoaderMixin",
+    "lost_caves.client.SpriteResourceLoaderMixin",
     "lost_caves.client.ClientLevelMixin",
     "lost_caves.client.ClientPacketListenerMixin",
-    "lost_caves.client.LocalPlayerMixin"
+    "lost_caves.client.DecoratedPotRendererMixin",
+    "lost_caves.client.LocalPlayerMixin",
+    "lost_caves.client.SheetsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

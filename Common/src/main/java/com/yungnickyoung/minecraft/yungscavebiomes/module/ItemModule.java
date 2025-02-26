@@ -31,6 +31,12 @@ public class ItemModule {
             SmithingTemplateItem.createArmorTrimTemplate(TrimPatternsModule.ANCIENT)
     );
 
+    @AutoRegister("hourglass_pottery_sherd")
+    public static final AutoRegisterItem HOURGLASS_POTTERY_SHERD = AutoRegisterItem.of(() -> new Item(new Item.Properties()));
+
+    @AutoRegister("clock_pottery_sherd")
+    public static final AutoRegisterItem CLOCK_POTTERY_SHERD = AutoRegisterItem.of(() -> new Item(new Item.Properties()));
+
     /**
      * Methods with the AutoRegister annotations will be executed after registration.
      *
