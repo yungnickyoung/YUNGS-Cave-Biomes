@@ -86,6 +86,7 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 repositories {
     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
     maven { url "https://maven.blamejared.com" }
+    maven { url 'https://maven.minecraftforge.net/' }
 }
 
 dependencies {
