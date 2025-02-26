@@ -17,7 +17,7 @@ public class YungsCaveBiomesCommon {
 
     public static boolean MARBLE_CAVES_ENABLED = false; // Rest in peace. Maybe one day...
     public static boolean DEBUG_LOG = false;
-    public static boolean DEBUG_RENDERING = true;
+    public static boolean DEBUG_RENDERING = false;
 
     public static void init() {
         DEBUG_LOG = DEBUG_LOG && Services.PLATFORM.isDevelopmentEnvironment();

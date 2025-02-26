@@ -381,7 +381,7 @@ public class SandSnapperEntity extends PathfinderMob implements GeoEntity {
             this.recentlyFedTimer = RECENTLY_FED_COOLDOWN;
 
             return InteractionResult.SUCCESS;
-        } else if (!itemStack.isEmpty()) {
+        } else if (!itemStack.isEmpty() && !itemStack.is(ItemModule.PRICKLY_PEACH_ITEM.get())) {
             if (this.level().isClientSide) {
                 return InteractionResult.CONSUME;
             }
