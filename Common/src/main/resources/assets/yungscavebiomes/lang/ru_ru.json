@@ -1,6 +1,6 @@
 {
-  "itemGroup.yungscavebiomes.general": "Пещерные биомы YUNG'а",
-  
+  "itemGroup.yungscavebiomes.general": "Пещерные Биомы YUNG'а",
+
   "yungscavebiomes.advancements.root.title": "Пещерные биомы YUNG'а",
   "yungscavebiomes.advancements.root.description": "Исследуйте подземный мир...",
   "yungscavebiomes.advancements.poke_the_cactus.title": "Пожалуйста, не трогайте кактус",
@@ -17,11 +17,11 @@
   "yungscavebiomes.advancements.frost_potion.description": "Сварите зелье заморозки",
   "yungscavebiomes.advancements.sandstorm_end.title": "Пескоструйные коридоры",
   "yungscavebiomes.advancements.sandstorm_end.description": "Переживите песчаную бурю",
-  
+
   "biome.yungscavebiomes.frosted_caves": "Ледяные пещеры",
   "biome.yungscavebiomes.marble_caves": "Мраморные пещеры",
   "biome.yungscavebiomes.lost_caves": "Затерянные пещеры",
-  
+
   "block.yungscavebiomes.icicle": "Сосулька",
   "block.yungscavebiomes.frost_lily": "Ледяная лилия",
   "block.yungscavebiomes.marble": "Мрамор",
@@ -48,15 +48,17 @@
   "block.yungscavebiomes.brittle_red_sandstone": "Хрупкий красный песчаник",
   "block.yungscavebiomes.prickly_peach_cactus": "Колючий персиковый кактус",
   "block.yungscavebiomes.prickly_vines": "Колючая лоза",
-  
+
   "entity.yungscavebiomes.ice_cube": "Ледокуб",
   "entity.yungscavebiomes.sand_snapper": "Песчаный кусака",
   "entity.yungscavebiomes.icicle": "Сосулька",
-  
+
   "item.yungscavebiomes.ice_cube_spawn_egg": "Яйцо призыва ледокуба",
   "item.yungscavebiomes.sand_snapper_spawn_egg": "Яйцо призыва песчаного кусаки",
   "item.yungscavebiomes.prickly_peach": "Колючий персик",
-  
+  "item.yungscavebiomes.hourglass_pottery_sherd": "Глиняный черепок «Песочные часы»",
+  "item.yungscavebiomes.clock_pottery_sherd": "Глиняный черепок «Часы»",
+
   "effect.yungscavebiomes.frost": "Заморозка",
   "effect.yungscavebiomes.frost.description": "Замедляет скорость передвижения и со временем наносит урон.",
   "effect.yungscavebiomes.buffeted": "Сотрясение",
@@ -70,17 +72,17 @@
   "item.minecraft.tipped_arrow.effect.yungscavebiomes.frost": "Стрела заморозки",
   "item.minecraft.tipped_arrow.effect.yungscavebiomes.strong_frost": "Стрела заморозки",
   "trim_pattern.yungscavebiomes.ancient": "Отделка «Древность»",
-  
+
   "death.attack.prickly_vines": "%1$s был до смерти проткнут колючими лианами",
   "death.attack.prickly_vines.player": "%1$s был до смерти проткнут колючими лианами, спасаясь от %2$s",
   "death.attack.falling_icicle": "%1$s был пронзён упавшей сосулькой",
   "death.attack.falling_icicle.player": "%1$s был пронзён упавшей сосулькой пока боролся с %2$s",
-  
+
   "subtitles.yungscavebiomes.block.rare_ice.ambient": "Зачарованный лёд сверкает",
-  
+
   "command.sandstorm.start": "Песчаная буря начата во всех затерянных пещерах в %s.",
   "command.sandstorm.stop": "Песчаная буря остановлена во всех затерянных пещерах в %s.",
-  
+
   "text.autoconfig.yungscavebiomes-fabric-1_20_1.title": "Пещерные биомы YUNG'а",
   "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.lostCaves.enableSandstorms": "Включить песчаные бури",
   "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.lostCaves.extraSandstormParticles": "Отображать дополнительные частицы во время песчаных бурь",
