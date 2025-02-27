@@ -1,7 +1,21 @@
 {
   "variants": {
-    "": {
-      "model": "yungscavebiomes:block/ancient_sand"
-    }
+    "": [
+      {
+        "model": "yungscavebiomes:block/ancient_sand"
+      },
+      {
+        "model": "yungscavebiomes:block/ancient_sand",
+        "y": 90
+      },
+      {
+        "model": "yungscavebiomes:block/ancient_sand",
+        "y": 180
+      },
+      {
+        "model": "yungscavebiomes:block/ancient_sand",
+        "y": 270
+      }
+    ]
   }
 }
